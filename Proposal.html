@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.335">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Project Proposal</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="Proposal_files/libs/clipboard/clipboard.min.js"></script>
+<script src="Proposal_files/libs/quarto-html/quarto.js"></script>
+<script src="Proposal_files/libs/quarto-html/popper.min.js"></script>
+<script src="Proposal_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="Proposal_files/libs/quarto-html/anchor.min.js"></script>
+<link href="Proposal_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="Proposal_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="Proposal_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="Proposal_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="Proposal_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+
+
+</head>
+
+<body class="fullcontent">
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Project Proposal</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<p><strong>Introduction:</strong></p>
+<p>For my final project, I will be evaluating players in the major 3 sports leagues (MLB, NBA, NFL) to see if a large contract extension (&gt;50% salary increase) will cause a noticeable and statistically significant increase or decrease in performance. This is called the contract year phenomenon, and occurs when a particular player has a decrease in performance due to their new found safety of a guaranteed amount of money. I will test the players performance using several key statistics and see if there is a significant change from before to after.</p>
+<p><strong>Specific Aims:</strong></p>
+<p>The specific aim of this project is to alert franchises if there will be an anticipated drop in performance once they sign a player to a deal. Obviously, this will not affect every player in the same way, but enough data supports one side of the argument, franchises can plan for the future by knowing what to expect in terms of a change of performance from the player they are signing. I selected this project because there has been a lot of research done for this topic in baseball, but not for basketball and football. I want to dive into those leagues and see if the results are similar. A specific source is a SaberMetrics study (https://sabr.org/journal/article/do-hitters-boost-their-performance-during-their-contract-years/). This study uses data that supports a strong boost in performance in the final year of a contract for MLB players in comparison to the year after.</p>
+<p><strong>Data Description:</strong></p>
+<p>I will be collected data from a variety of sources including: Dunksandthrees.com baseballreference.com spotrac.com profootballreference.com</p>
+<p>The stats I will be collecting are WAR and wRC+ for baseball to confirm prior research EPM and DPM for basketball And if necessary, QBR and Completion % for NFL quarterbacks</p>
+<p>I will be sampling for players who signed an extension between the ages of 25-30 within the last 10 years, along with the extension being a 50% increase from their prior salary, which means they had a lot of money to play before and relax after.</p>
+<p><strong>Research Design:</strong></p>
+<p>My plan of study here begins with the data collection. I will pull data from my cited open data sources and into an excel where I can import in a python notebook. I will collect data on the contract length, salary, and the statistics listed above before and after the contract. I will then create visuals displaying the data followed by a paired T-test to evaluate statistical significance on the difference between the statistics at a level of .05. I will then run a regression longitudinal study to perform additional analysis on the subject. I will check whether the coefficients vary from the 0 significantly to see if there is enough evidence to support my hypothesis that a contract extension leads to a decrease in performance.</p>
+<p><strong>Discussion:</strong></p>
+<p>I expect to find that players do in fact perform significantly better in a contract year compared to the year after they find. I think that is because of the job security they get from a new contract compared to when they don’t have one. My work can challenge the existing results for MLB research, but will open a new pathway for NBA and NFL knowledge as the prior research is few and far between. The potential impacts of my work are that teams will be able to plan for a drop in productions for the players they sign in the following year if in fact the expected outcome holds. If the results are not what I expected, then teams can safely sign players as they want without an expectation for lower production.</p>
+<p><strong>Conclusion:</strong></p>
+<p>To summarize, my project intends to determine if players have a drop in performance from the year before they sign a contract extension to the year after. I will use a variety of statistics in three leagues, the MLB, the NBA, and the NFL. I will then run a statistical test and recap my findings.</p>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

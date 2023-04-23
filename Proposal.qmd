@@ -1,0 +1,44 @@
+---
+title: "Project Proposal"
+format: html
+---
+
+**Introduction:**
+
+For my final project, I will be evaluating players in the major 3 sports leagues (MLB, NBA, NFL) to see if a large contract extension (>50% salary increase) will cause a noticeable and statistically significant increase or decrease in performance. This is called the contract year phenomenon, and occurs when a particular player has a decrease in performance due to their new found safety of a guaranteed amount of money. I will test the players performance using several key statistics and see if there is a significant change from before to after.
+
+**Specific Aims:**
+
+The specific aim of this project is to alert franchises if there will be an anticipated drop in performance once they sign a player to a deal. Obviously, this will not affect every player in the same way, but enough data supports one side of the argument, franchises can plan for the future by knowing what to expect in terms of a change of performance from the player they are signing. I selected this project because there has been a lot of research done for this topic in baseball, but not for basketball and football. I want to dive into those leagues and see if the results are similar. A specific source is a SaberMetrics study (https://sabr.org/journal/article/do-hitters-boost-their-performance-during-their-contract-years/).
+This study uses data that supports a strong boost in performance in the final year of a contract for MLB players in comparison to the year after.
+
+**Data Description:**
+
+I will be collected data from a variety of sources including:
+Dunksandthrees.com
+baseballreference.com
+spotrac.com
+profootballreference.com
+
+
+The stats I will be collecting are
+WAR and wRC+ for baseball to confirm prior research
+EPM and DPM for basketball
+And if necessary, QBR and Completion % for NFL quarterbacks
+
+
+I will be sampling for players who signed an extension between the ages of 25-30 within the last 10 years, along with the extension being a 50% increase from their prior salary, which means they had a lot of money to play before and relax after.
+
+**Research Design:**
+
+My plan of study here begins with the data collection. I will pull data from my cited open data sources and into an excel where I can import in a python notebook. I will collect data on the contract length, salary, and the statistics listed above before and after the contract. I will then create visuals displaying the data followed by a paired T-test to evaluate statistical significance on the difference between the statistics at a level of .05. I will then run a regression longitudinal study to perform additional analysis on the subject. I will check whether the coefficients vary from the 0 significantly to see if there is enough evidence to support my hypothesis that a contract extension leads to a decrease in performance.
+
+**Discussion:**
+
+I expect to find that players do in fact perform significantly better in a contract year compared to the year after they find. I think that is because of the job security they get from a new contract compared to when they don't have one. My work can challenge the existing results for MLB research, but will open a new pathway for NBA and NFL knowledge as the prior research is few and far between. The potential impacts of my work are that teams will be able to plan for a drop in productions for the players they sign in the following year if in fact the expected outcome holds. If the results are not what I expected, then teams can safely sign players as they want without an expectation for lower production.
+
+**Conclusion:**
+
+To summarize, my project intends to determine if players have a drop in performance from the year before they sign a contract extension to the year after. I will use a variety of statistics in three leagues, the MLB, the NBA, and the NFL. I will then run a statistical test and recap my findings.
+
+
